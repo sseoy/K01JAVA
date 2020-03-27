@@ -57,8 +57,7 @@ public class Person {
 		//자동 호출 되는지 확인
 		System.out.println("오버라이딩 한 equals()메소드 호출");
 		
-		if(comparePerson.age == this.age && 
-				comparePerson.name.equals(this.name)) {
+		if(	comparePerson.name.equals(this.name)) {
 			return true;
 		}
 		else {

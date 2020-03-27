@@ -32,7 +32,7 @@ public class QuArrayList {
 		Student st1 = new Student("가길동", 10, "2018");
 		Student st2 = new Student("나길동", 20, "2017");
 		Student st3 = new Student("다길동", 30, "2016");
-		Student st4 = new Student("마길동", 40, "2015");
+		Student st4 = new Student("가길동", 40, "2015");
 		
 		//객체 추가(컬렉션에 저장)
 		list.add(st1);

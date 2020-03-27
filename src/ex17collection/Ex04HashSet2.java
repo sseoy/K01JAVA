@@ -12,7 +12,7 @@ public class Ex04HashSet2 {
 		
 		Person p1 = new Person("정우성", 30);
 		Person p2 = new Person("장동건", 40);
-		Person p3 = new Person("정우성", 30);
+		Person p3 = new Person("정우성", 40);
 		
 		hashSet.add(p1);
 		hashSet.add(p2);
