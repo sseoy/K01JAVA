@@ -24,7 +24,7 @@ public class SelectQuery extends IConnectImpl{
 					  String name = rs.getString(3);
 					  String regidate = rs.getString(4).substring(0,10);
 					  
-					  System.out.printf("%s %s %S %s\n",
+					  System.out.printf("%s %s %s %s\n",
 							  id, pass, name, regidate);
 					  
 				  }
