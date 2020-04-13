@@ -19,7 +19,7 @@ public class E01JavaStruct {
 		SimpleDateFormat simple = 
 				new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
 		String toDayString = simple.format(toDayOfDate);
-		System.out.println("변형된날짜:" + toDayString);
+		System.out.println("변형된날짜:" + toDayString);//git hub
 	}
 
 }
