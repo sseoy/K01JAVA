@@ -16,7 +16,7 @@ public class SelectShop extends IConnectImpl{
 		try {
 		stmt = con.createStatement();
 		String query = "SELECT g_idx, goods_name, to_char(goods_price, '999,999,999,000') format2,  "
-				+ " to_char(regidate, 'yyyy.mm.dd hh24:mi') format1 , p_code "
+				+ " to_char(regidate, 'yyyy-mm-dd hh24:mi') format1 , p_code "
 				+ "  FROM sh_goods";
 		
 		rs = stmt.executeQuery(query);
