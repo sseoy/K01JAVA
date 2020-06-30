@@ -7,7 +7,7 @@ package ex04controlstatement;
  			조건문이 참일때 실행문장;
  		}
  		else{
- 			조건문이 거짓일때 실행문장;
+ 			조건문이 거짓일때 실행문장; 
  		}
  */
 
